@@ -13,7 +13,7 @@ body{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    border-color: aliceblue;
+    border-color:#141E30;
     border-style: solid;
     flex-direction: column;
     margin-top: 20px;
@@ -21,13 +21,63 @@ body{
 }
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 55px;
+    font-size: 50px;
+    color: aliceblue;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 25px;
+    color: aliceblue;
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    color: aliceblue;
+}
+p{
+    margin-top: 10px;
+    font-family:'Lucida Sans';
+    font-weight: bolder;
+    color: aliceblue;
+}
+#profile{
+    margin-top: 15px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+a{
+    margin-top: 30px;
+    text-decoration: none;
+}
+.Network{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.email{
+    margin: 20px 0 20px 0;
+    height: 30px;
+    width: 110px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.email :hover{
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
