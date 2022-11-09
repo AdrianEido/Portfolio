@@ -3,9 +3,16 @@
     margin: 0;
     padding: 0;
 }
-nav{
+.container1{
     background-color: transparent;
     font-family: 'Abel', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1px;
+    padding: 1px;
+
 }
 body{
     background: #141E30;  /* fallback for old browsers */
